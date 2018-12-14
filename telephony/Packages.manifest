@@ -1,0 +1,197 @@
+Package: baresip-mod-natbd
+Version: 0.5.9-2
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 4488
+Filename: baresip-mod-natbd_0.5.9-2_mips_24kc.ipk
+Size: 5239
+SHA256sum: 589e54e35f181f4c12f615a28ade31b2d8b085c53df3d38e1ecad1db003acacd
+Description:  NAT Behavior Discovery Module
+
+Package: baresip-mod-natpmp
+Version: 0.5.9-2
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 4308
+Filename: baresip-mod-natpmp_0.5.9-2_mips_24kc.ipk
+Size: 5046
+SHA256sum: 87175c54446d976eef3b2b2c8af7d68b0e6163a8081d4ce85c28550d7a540c58
+Description:  NAT Port Mapping Protocol module
+
+Package: baresip
+Version: 0.5.9-2
+Depends: libc, libre, librem
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Require-User: baresip=374:baresip=374
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 280345
+Filename: baresip_0.5.9-2_mips_24kc.ipk
+Size: 281178
+SHA256sum: 0779f066a33f70d8ace06e50815d646c26f91d88f8596a1b1c47580dbaccefd9
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: kamailio5-mod-dialog
+Version: 5.1.6-2
+Depends: libc, kamailio5, kamailio5-mod-rr, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 131610
+Filename: kamailio5-mod-dialog_5.1.6-2_mips_24kc.ipk
+Size: 132394
+SHA256sum: b5a4375ab6fb594fa8c519731cd820eafd461c4dde24d1a40d0a08cd9ec5f1a4
+Description:  Dialog support for Kamailio5
+
+Package: kamailio5-mod-nat-traversal
+Version: 5.1.6-2
+Depends: libc, kamailio5, kamailio5-mod-dialog, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 25871
+Filename: kamailio5-mod-nat-traversal_5.1.6-2_mips_24kc.ipk
+Size: 26619
+SHA256sum: 44ae341f2eb49578fbe3c56b8b135868c9f0c7d79a471a798fc88b1d6bcf3f96
+Description:  NAT traversal for Kamailio5
+
+Package: kamailio5-mod-nathelper
+Version: 5.1.6-2
+Depends: libc, kamailio5, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 41053
+Filename: kamailio5-mod-nathelper_5.1.6-2_mips_24kc.ipk
+Size: 41860
+SHA256sum: 924a0b41a3088c0a556190eacbb053982f74c0ac9b78ea174c215d231dd824f7
+Description:  NAT helper for Kamailio5
+
+Package: kamailio5-mod-rr
+Version: 5.1.6-2
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 34094
+Filename: kamailio5-mod-rr_5.1.6-2_mips_24kc.ipk
+Size: 34929
+SHA256sum: 5efe3c46a7f03f9cfe6cbdeedb8111582069f9345f79951a20b1bf7174640e2f
+Description:  Record-Route and Route for Kamailio5
+
+Package: kamailio5-mod-sl
+Version: 5.1.6-2
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 20923
+Filename: kamailio5-mod-sl_5.1.6-2_mips_24kc.ipk
+Size: 21646
+SHA256sum: b6df923358af9e57a190248c44f84b3dcfc87731da97530fb19cae88033732c0
+Description:  Stateless replier for Kamailio5
+
+Package: kamailio5-mod-tm
+Version: 5.1.6-2
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 235650
+Filename: kamailio5-mod-tm_5.1.6-2_mips_24kc.ipk
+Size: 236230
+SHA256sum: 6404c9ef91ab8454a63c9c424a7e4ef42ee90476c1abb1064524ea28cd6732c7
+Description:  Transaction for Kamailio5
+
+Package: kamailio5-mod-usrloc
+Version: 5.1.6-2
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 62184
+Filename: kamailio5-mod-usrloc_5.1.6-2_mips_24kc.ipk
+Size: 62986
+SHA256sum: f4a74b4fd982a27e605a3558331d32a96123eb725593e9b2c346550d30ee490f
+Description:  User location for Kamailio5
+
+Package: kamailio5
+Version: 5.1.6-2
+Depends: libc, libncurses, libpthread, libreadline, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Require-User: kamailio=380:kamailio=380
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 982972
+Filename: kamailio5_5.1.6-2_mips_24kc.ipk
+Size: 983011
+SHA256sum: fee57a95ad5fbff55ef6828104a2d332f23356c1361e8987d78e11666fa74138
+Description:  Mature and flexible open source SIP server, v5.1.6
+
+Package: libre
+Version: 0.5.8-1
+Depends: libc, libopenssl, zlib
+Source: feeds/telephony/libs/re
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 147574
+Filename: libre_0.5.8-1_mips_24kc.ipk
+Size: 148420
+SHA256sum: 06b0fe67453bcbe5bd9a15bc4a919633fba71f1ca1be0e7cdc6a871f4431cbdd
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 0.5.3-1
+Depends: libc, libre
+Source: feeds/telephony/libs/rem
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 23043
+Filename: librem_0.5.3-1_mips_24kc.ipk
+Size: 23759
+SHA256sum: aefe7b385d19f6a1a0df93d6c55e0924bef27d4c7eb1ac3a3cb5b81e4101e1b9
+Description:  Audio and video processing media library
+
